@@ -72,11 +72,6 @@ public class FBAnnotationClusterView : MKAnnotationView {
         setTheCount(count)
     }
     
-    required override public init(frame: CGRect) {
-        super.init(frame: frame)
-        
-    }
-    
     required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
